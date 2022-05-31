@@ -3036,11 +3036,6 @@ PrefabInstance:
       propertyPath: _promptWindow
       value: 
       objectReference: {fileID: 1711916741}
-    - target: {fileID: 6201348964662298488, guid: 8e3b6e1a084ec23449039b8e91b52478, type: 3}
-      propertyPath: _vuMarkModelsData.Array.data[34]._name
-      value: "#\u0423\u0437\u043B\u044B \u0432\u044B\u0440\u0430\u0432\u043D\u0438\u0432\u0430\u043D\u0438\u044F
-        \u043A\u0430\u0431\u0435\u043B\u0435\u0439 \u0432 \u0441\u0431\u043E\u0440\u0435"
-      objectReference: {fileID: 0}
     - target: {fileID: 6201348964662298489, guid: 8e3b6e1a084ec23449039b8e91b52478, type: 3}
       propertyPath: m_Name
       value: VuMarkBehavior

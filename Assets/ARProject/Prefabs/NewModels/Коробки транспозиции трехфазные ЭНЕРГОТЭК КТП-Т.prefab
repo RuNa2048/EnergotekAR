@@ -501,8 +501,13 @@ GameObject:
   m_Component:
   - component: {fileID: 7807130396567958640}
   - component: {fileID: -3788014899033774969}
+  - component: {fileID: -7092706918343320734}
+  - component: {fileID: -7235780948567095065}
+  - component: {fileID: -8728991154549885606}
   m_Layer: 0
-  m_Name: "\u041A\u0422\u041F-\u0422"
+  m_Name: "\u041A\u043E\u0440\u043E\u0431\u043A\u0438 \u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0437\u0438\u0446\u0438\u0438
+    \u0442\u0440\u0435\u0445\u0444\u0430\u0437\u043D\u044B\u0435 \u042D\u041D\u0415\u0420\u0413\u041E\u0422\u042D\u041A
+    \u041A\u0422\u041F-\u0422"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -553,6 +558,57 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-7092706918343320734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7807130396567958641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7143e3164c75c489db8eff285336c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startScale: {x: 1, y: 1, z: 1}
+  _startRotation: {x: 0, y: 121.258, z: 0}
+  _rotationSpeed: 70
+--- !u!114 &-7235780948567095065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7807130396567958641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb609d4ec2b03343b1a8e566263088f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nameOpenCloseAnimation: IsOpen
+--- !u!114 &-8728991154549885606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7807130396567958641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  relative: 0
+  sensitivity: 1
+  damping: -1
+  remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1001 &226173906768295044
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: 8363886102089871236}
   - component: {fileID: 3379681625225961556}
   m_Layer: 5
-  m_Name: ModelCard_Center
+  m_Name: "\u041A\u043E\u0440\u043E\u0431\u043A\u0438 \u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0437\u0438\u0446\u0438\u0438
+    \u043E\u0434\u043D\u043E\u0444\u0430\u0437\u043D\u044B\u0435 \u042D\u041D\u0415\u0420\u0413\u041E\u0422\u042D\u041A
+    \u041A\u0422\u041F-\u041E"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,7 +61,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b100dc0c38b2762498156f126c9577cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: 
+  _name: "\u041A\u043E\u0440\u043E\u0431\u043A\u0438 \u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0437\u0438\u0446\u0438\u0438
+    \u043E\u0434\u043D\u043E\u0444\u0430\u0437\u043D\u044B\u0435 \u042D\u041D\u0415\u0420\u0413\u041E\u0422\u042D\u041A
+    \u041A\u0422\u041F-\u041E"
 --- !u!114 &3379681625225961556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,14 +267,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 5861592152101616909, guid: 789c605416d9dc040a179f2685563c48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -345,7 +349,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435?"
+  m_text: "\u041A\u043E\u0440\u043E\u0431\u043A\u0438 \u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0437\u0438\u0446\u0438\u0438
+    \u043E\u0434\u043D\u043E\u0444\u0430\u0437\u043D\u044B\u0435 \u042D\u041D\u0415\u0420\u0413\u041E\u0422\u042D\u041A
+    \u041A\u0422\u041F-\u041E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 57a9eaa65dab93c4092cee8d07e8b7a6, type: 2}
   m_sharedMaterial: {fileID: -3747441991520524079, guid: 57a9eaa65dab93c4092cee8d07e8b7a6, type: 2}
