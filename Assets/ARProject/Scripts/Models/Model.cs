@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
 public class Model : MonoBehaviour
 {
     [Header("Size Parameters")]
@@ -9,15 +8,6 @@ public class Model : MonoBehaviour
     [Header("Rotation")]
     [SerializeField] private Vector3 _startRotation = Vector3.zero;
     [SerializeField] private float _rotationSpeed = 10f;
-
-    private Rigidbody _rigidbody;
-
-    private void Awake()
-    {
-	    _rigidbody = GetComponent<Rigidbody>();
-
-	    _rigidbody.isKinematic = true;
-    }
 
     public void MultiplyScale(float scale)
     {
