@@ -1,9 +1,59 @@
 fileFormatVersion: 2
-guid: 609a847cc7ed98e4ba00cdb27c4c3f5c
+guid: e9b35467083834a4aa9bae3b48de372e
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dirty Concrete.002
+    second: {fileID: 2100000, guid: 479aa8067e569cb498bb09f88012082b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray white plastic.003
+    second: {fileID: 2100000, guid: 2135d54275fbcf14383957fa9c714e85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray white plastic.009
+    second: {fileID: 2100000, guid: 1614f3eeb77845547b6faa0fa3a6f5d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic.028
+    second: {fileID: 2100000, guid: b5bbc9a1ad8fa394faef5f7de0a36622, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Procedural Metal scratched.011
+    second: {fileID: 2100000, guid: edeb1df01ac59874e81fa849eafa3949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steel dark used
+    second: {fileID: 2100000, guid: a6cf30d7bd557904e9071e8c52c025a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B"
+    second: {fileID: 2100000, guid: 6fe88ee8b881447438e63d84ed7d3682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B.001"
+    second: {fileID: 2100000, guid: 32097964bfc33d948b31c946e25bb05c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B.002"
+    second: {fileID: 2100000, guid: 3c2fd2d8ad53a084caefa25f60353591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B.016"
+    second: {fileID: 2100000, guid: bd73872b0634e0a46b530f256776c343, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
