@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class WindowChanger : MonoBehaviour
@@ -16,6 +17,9 @@ public class WindowChanger : MonoBehaviour
 	[SerializeField] private WindowInput _windowInput;
 	[SerializeField] private ModelSpawner _modelSpawner;
 
+	public event Action OnVieverModelWindowEnabled;
+	public event Action OnVieverModelWindowDisabled;
+	
 	private Dictionary<int, RectTransform> _windows = new Dictionary<int, RectTransform>();
 	private Stack<int> _previousWindows = new Stack<int>();
 
@@ -77,6 +81,8 @@ public class WindowChanger : MonoBehaviour
 		_background.gameObject.SetActive(false);
 
 		_modelSpawner.CreateModel(model);
+		
+		OnVieverModelWindowEnabled?.Invoke();
 	}
 
 	public void HideModelViewer()
@@ -90,6 +96,8 @@ public class WindowChanger : MonoBehaviour
 		_background.gameObject.SetActive(true);
 
 		_modelSpawner.ClearWindow();
+		
+		OnVieverModelWindowDisabled?.Invoke();
 	}
 
 	public void ChangeOnMain()

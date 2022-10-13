@@ -29,6 +29,7 @@ public class PlayerInput : MonoBehaviour
 				CheckMouse();
 				
 				break;
+			
 			case InputType.Touch:
 				CheckTouch();
 
@@ -39,7 +40,11 @@ public class PlayerInput : MonoBehaviour
 	private void CheckTouch()
 	{
 		if (Input.touchCount == 0 || Input.touchCount >= 2)
+		{
+			OnTouched?.Invoke(Vector2.zero);
+			
 			return;
+		}
 		
 		Touch touch = Input.GetTouch(0);
 
@@ -50,11 +55,16 @@ public class PlayerInput : MonoBehaviour
 	{
 		if (Input.GetMouseButton(0))
 		{
-			Vector2 mouseDelta = _mouseLastPosition - (Vector2)Input.mousePosition;
+			Vector2 mouseDelta = (Vector2)Input.mousePosition - _mouseLastPosition;
 			
 			_mouseLastPosition = Input.mousePosition;
+			mouseDelta.x = -mouseDelta.x;
 
 			OnTouched?.Invoke(mouseDelta.normalized);
+
+			return;
 		}
+		
+		OnTouched?.Invoke(Vector2.zero);
 	}
 }

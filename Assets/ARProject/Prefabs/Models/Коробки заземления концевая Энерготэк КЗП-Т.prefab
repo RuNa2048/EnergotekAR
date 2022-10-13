@@ -213,7 +213,6 @@ GameObject:
   - component: {fileID: 6165382009047508012}
   - component: {fileID: 2275724994756127259}
   - component: {fileID: 8429754989213196528}
-  - component: {fileID: 4323071559910943417}
   m_Layer: 0
   m_Name: "\u041A\u043E\u0440\u043E\u0431\u043A\u0438 \u0437\u0430\u0437\u0435\u043C\u043B\u0435\u043D\u0438\u044F
     \u043A\u043E\u043D\u0446\u0435\u0432\u0430\u044F \u042D\u043D\u0435\u0440\u0433\u043E\u0442\u044D\u043A
@@ -329,22 +328,6 @@ MonoBehaviour:
   sensitivity: 1
   damping: -1
   remainingScale: {x: 0, y: 0, z: 0}
---- !u!54 &4323071559910943417
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6494938797666979098}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 78
-  m_CollisionDetection: 0
 --- !u!1001 &1290982363593298835
 PrefabInstance:
   m_ObjectHideFlags: 0

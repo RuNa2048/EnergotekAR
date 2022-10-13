@@ -8,7 +8,7 @@ public class Model : MonoBehaviour
     [Header("Rotation")]
     [SerializeField] private Vector3 _startRotation = Vector3.zero;
     [SerializeField] private float _rotationSpeed = 10f;
-
+    
     public void MultiplyScale(float scale)
     {
         transform.localScale = _startScale * scale;
@@ -25,8 +25,8 @@ public class Model : MonoBehaviour
 	{
 		float xRotation = delta.x * Time.deltaTime * _rotationSpeed;
 		float yRotation = delta.y * Time.deltaTime * _rotationSpeed;
-		
-		transform.Rotate(Vector3.down * xRotation);
-		transform.Rotate(Vector3.right * yRotation);
+
+		transform.RotateAround(transform.position, Vector3.up, -xRotation);
+		transform.RotateAround(transform.position, Vector3.right, yRotation);
 	}
 }

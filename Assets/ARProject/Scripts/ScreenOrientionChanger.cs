@@ -1,12 +1,11 @@
 using System;
-using System.Collections;
 using UnityEngine;
- 
+
 public class ScreenOrientionChanger : MonoBehaviour
 {
 	[Header("Screen Settings")]
 	[SerializeField] private bool _isAutoRotation = true;
-
+	
 	public event Action OnChanged;
 
 	private Rect _currentSafeArea;
@@ -18,7 +17,7 @@ public class ScreenOrientionChanger : MonoBehaviour
 			? ScreenOrientation.AutoRotation
 			: ScreenOrientation.Portrait;
 	}
-	
+
 	private void Update()
 	{
 		if (_currentOrientation != Screen.orientation || _currentSafeArea != Screen.safeArea)
@@ -33,5 +32,19 @@ public class ScreenOrientionChanger : MonoBehaviour
 
 		_currentSafeArea = Screen.safeArea;
 		_currentOrientation = Screen.orientation;
+	}
+
+	public void AllowAutoRotation()
+	{
+		_isAutoRotation = true;
+
+		Screen.orientation = ScreenOrientation.AutoRotation;
+	}
+
+	public void ReturnToPortraitAndBlockAutoRotation()
+	{
+		_isAutoRotation = false;
+
+		Screen.orientation = ScreenOrientation.Portrait;
 	}
 }
